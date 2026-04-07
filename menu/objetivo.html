@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objetivo | Alciran Frazão</title>
+    <!-- Caminho corrigido: está dentro da pasta menu/, então sobe um nível com ../ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+
+    <!-- Navbar compartilhada -->
+    <nav class="navbar" id="navbar">
+      <a href="../index.html" class="nav-brand">AF<span class="accent">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="objetivo.html">Objetivo</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="experiencias.html">Experiências</a></li>
+        <li><a href="cursos.html">Aperfeiçoamento</a></li>
+        <li><a href="informacoes.html">Informações</a></li>
+      </ul>
+    </nav>
+
+    <!-- Cabeçalho da página -->
+    <div class="page-header">
+      <h1>Objetivo Profissional</h1>
+    </div>
+
+    <!-- Conteúdo -->
+    <main class="page-content">
+
+      <!-- Card com o objetivo atualizado para vaga de dev -->
+      <div class="card visible">
+        <p class="card-title">Desenvolvedor Trainee / Júnior</p>
+        <p style="color: var(--cor-texto-2); margin-top: 12px; line-height: 1.8;">
+          Busco oportunidade como <strong style="color: var(--cor-texto)">Desenvolvedor Trainee ou Júnior</strong> para atuar no desenvolvimento
+          de soluções web modernas e APIs, contribuindo com meu conhecimento em
+          <strong style="color: var(--cor-destaque)">Java, C#, .NET e REST APIs</strong>.
+        </p>
+        <p style="color: var(--cor-texto-2); margin-top: 14px; line-height: 1.8;">
+          Tenho interesse especial em trabalhar com integrações via APIs, desenvolvimento backend
+          e aprendizado de novas tecnologias. Valorizo ambientes de aprendizado constante, onde
+          possa colaborar com o time técnico e crescer profissionalmente aplicando boas práticas
+          de desenvolvimento de software.
+        </p>
+        <p style="color: var(--cor-texto-2); margin-top: 14px; line-height: 1.8;">
+          Comprometido com a entrega de código limpo, organizado e eficiente, e com vontade
+          de evoluir continuamente na área de tecnologia.
+        </p>
+      </div>
+
+      <!-- Botão voltar -->
+      <div class="btn-back-wrapper">
+        <button onclick="window.history.back()" class="btn-back">← Voltar</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="anoAtual"></span> Alciran Frazão</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
