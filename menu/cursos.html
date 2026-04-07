@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aperfeiçoamento | Alciran Frazão</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+
+    <nav class="navbar" id="navbar">
+      <a href="../index.html" class="nav-brand">AF<span class="accent">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="objetivo.html">Objetivo</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="experiencias.html">Experiências</a></li>
+        <li><a href="cursos.html">Aperfeiçoamento</a></li>
+        <li><a href="informacoes.html">Informações</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-header">
+      <h1>Cursos de Aperfeiçoamento</h1>
+    </div>
+
+    <main class="page-content">
+
+      <!-- Cursos mais relevantes para dev primeiro -->
+
+      <div class="card">
+        <p class="card-title">Treina Brasil — Amazon Web Services (AWS)</p>
+        <p class="card-subtitle">TIDWIT · Programa AWS <span class="tag-andamento">Em andamento</span></p>
+        <p class="card-period">2025</p>
+        <!-- O <details> permite expandir/recolher — funciona sem JavaScript! -->
+        <details class="disciplinas">
+          <summary>Ver conteúdo ▾</summary>
+          <ul>
+            <li>Fundamentos de Cloud Computing</li>
+            <li>Serviços AWS (EC2, S3, Lambda)</li>
+            <li>Certificado de Participação emitido</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="card">
+        <p class="card-title">C# com .NET</p>
+        <p class="card-subtitle">Udemy <span class="tag-andamento">Em andamento</span></p>
+        <p class="card-period">2025</p>
+        <details class="disciplinas">
+          <summary>Ver conteúdo ▾</summary>
+          <ul>
+            <li>Fundamentos do C#</li>
+            <li>Orientação a Objetos</li>
+            <li>Desenvolvimento com .NET</li>
+            <li>APIs com ASP.NET Core</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="card">
+        <p class="card-title">Análise, Projeto e Gerência de Sistemas</p>
+        <p class="card-subtitle">UNOPAR — Licença de Competência</p>
+        <p class="card-period">Set 2023</p>
+        <details class="disciplinas">
+          <summary>Ver competências ▾</summary>
+          <ul>
+            <li>Business Intelligence (BI)</li>
+            <li>Inteligência de negócios</li>
+            <li>Gestão de riscos em TI</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="card">
+        <p class="card-title">Técnicas de Liderança</p>
+        <p class="card-subtitle">Senac RN</p>
+        <p class="card-period">Mai 2024</p>
+      </div>
+
+      <div class="card">
+        <p class="card-title">Programação em HTML5</p>
+        <p class="card-subtitle">Cursos Livres — UNOPAR</p>
+        <details class="disciplinas">
+          <summary>Ver conteúdo ▾</summary>
+          <ul>
+            <li>Conceitos e técnicas de HTML5</li>
+            <li>Novos elementos e multimídia</li>
+            <li>Drag & Drop e Gráficos</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="card">
+        <p class="card-title">Análise de Dados em Python</p>
+        <p class="card-subtitle">Cursos Livres — UNOPAR <span class="tag-andamento">Em andamento</span></p>
+        <details class="disciplinas">
+          <summary>Ver conteúdo ▾</summary>
+          <ul>
+            <li>Introdução à linguagem Python</li>
+            <li>Análise de dados com Python</li>
+            <li>Estruturas de dados em Python</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="card">
+        <p class="card-title">Operador de Computador</p>
+        <p class="card-subtitle">Pronatec — IFRN</p>
+        <p class="card-period">Out 2013</p>
+        <details class="disciplinas">
+          <summary>Ver conteúdo ▾</summary>
+          <ul>
+            <li>Apresentação e Editor de Textos</li>
+            <li>Planilha Eletrônica</li>
+            <li>Internet e Sistema Operacional</li>
+            <li>Ética, Cidadania e Relações Interpessoais</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="card">
+        <p class="card-title">Informática Básica</p>
+        <p class="card-subtitle">Fokos Informática</p>
+        <details class="disciplinas">
+          <summary>Ver conteúdo ▾</summary>
+          <ul>
+            <li>Windows 7-10 e Internet</li>
+            <li>Pacote Office</li>
+            <li>CorelDraw 12</li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="btn-back-wrapper">
+        <button onclick="window.history.back()" class="btn-back">← Voltar</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="anoAtual"></span> Alciran Frazão</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
